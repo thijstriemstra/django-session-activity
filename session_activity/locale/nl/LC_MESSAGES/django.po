@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: django-session-activity\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-11 17:32+0100\n"
-"PO-Revision-Date: 2014-02-11 16:24+0100\n"
+"PO-Revision-Date: 2014-02-11 17:35+0100\n"
 "Last-Translator: Thijs Triemstra <info@collab.nl>\n"
 "Language-Team: NL\n"
 "Language: nl\n"
@@ -24,14 +24,13 @@ msgstr "sessie sleutel"
 
 #: models.py:15
 msgid "created at"
-msgstr ""
+msgstr "gemaakt op"
 
 #: models.py:18
 msgid "Session activity"
-msgstr "Sessie activiteiten"
+msgstr "Sessie activiteit"
 
 #: models.py:19
-#, fuzzy
 msgid "Session activities"
 msgstr "Sessie activiteiten"
 
