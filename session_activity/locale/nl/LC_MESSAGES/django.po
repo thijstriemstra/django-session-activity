@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-session-activity\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-11 16:32+0100\n"
+"POT-Creation-Date: 2014-02-11 17:32+0100\n"
 "PO-Revision-Date: 2014-02-11 16:24+0100\n"
 "Last-Translator: Thijs Triemstra <info@collab.nl>\n"
 "Language-Team: NL\n"
@@ -22,8 +22,17 @@ msgstr ""
 msgid "session key"
 msgstr "sessie sleutel"
 
-#: models.py:18 models.py:19
+#: models.py:15
+msgid "created at"
+msgstr ""
+
+#: models.py:18
 msgid "Session activity"
+msgstr "Sessie activiteiten"
+
+#: models.py:19
+#, fuzzy
+msgid "Session activities"
 msgstr "Sessie activiteiten"
 
 #: views.py:32

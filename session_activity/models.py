@@ -12,11 +12,11 @@ from .conf import settings
 class SessionActivity(models.Model):
     user            = models.ForeignKey(settings.AUTH_USER_MODEL)
     session_key     = models.CharField(_("session key"), max_length=40)
-    created_at      = models.DateTimeField(auto_now_add=True)
+    created_at      = models.DateTimeField(_("created at"), auto_now_add=True)
 
     class Meta:
         verbose_name = _("Session activity")
-        verbose_name_plural = _("Session activity")
+        verbose_name_plural = _("Session activities")
 
 
 def create_session_activity(request, user, **kwargs):
